@@ -1,0 +1,39 @@
+php artisan make:controller --resource --model=User
+
+Detalizavimas
+css/
+style.css: Visas CSS kodas, reikalingas tinklalapio dizainui.
+
+database/
+krepsiniostatistika.sql: SQL failas su duomenų bazės struktūra ir pradiniais duomenimis.
+
+back-end/
+controllers/: Klasės, valdančios HTTP užklausas ir atsakymus.
+
+KomandaController.php
+RungtynesController.php
+StatistikaController.php
+ZaidejasController.php
+
+models/: Klasės, atitinkančios duomenų bazės lenteles.
+
+Komanda.php
+Rungtynes.php
+Statistika.php
+Zaidejas.php
+views/: PHP failai, generuojantys HTML išvestį.
+
+komandos/index.php
+rungtynes/index.php
+statistika/index.php
+zaidejai/index.php
+
+content/
+header.php: Viršutinė tinklalapio dalis (logotipas, navigacija).
+footer.php: Apatinė tinklalapio dalis (kontaktai, autorių teisės).
+navbar.php: Navigacijos juosta.
+
+db-connection/
+connection.php: Failas su duomenų bazės prisijungimo nustatymais.
+
+index.php - Pagrindinis tinklalapio failas, kuris įkelia pagrindinį turinį ir struktūrą.
